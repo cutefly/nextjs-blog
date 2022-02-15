@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import Head from 'next/head'
 import Layout from '../../components/layout'
+import Alert from '../../components/classnames'
 
 export default function FirstPost() {
   return (
@@ -14,6 +15,7 @@ export default function FirstPost() {
           <a> Back to home</a>
         </Link>
       </h2>
+      <Alert type="error">Success Alert</Alert>
     </Layout>
   )
 }
